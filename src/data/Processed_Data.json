@@ -1,0 +1,62 @@
+[
+    {
+        "date": "2023-01-01",
+        "company": "A-1 Technology Inc.",
+        "review": "Excellent service and support.",
+        "sentiment_score": 0.8
+    },
+    {
+        "date": "2023-01-02",
+        "company": "Bacancy",
+        "review": "Good quality work but slow response time.",
+        "sentiment_score": 0.5
+    },
+    {
+        "date": "2023-01-03",
+        "company": "Blue Yonder",
+        "review": "Very professional and timely delivery.",
+        "sentiment_score": 0.9
+    },
+    {
+        "date": "2023-01-04",
+        "company": "Cadence Design Systems",
+        "review": "Average experience, could improve communication.",
+        "sentiment_score": 0.3
+    },
+    {
+        "date": "2023-01-05",
+        "company": "Capgemini",
+        "review": "Great team, very knowledgeable.",
+        "sentiment_score": 0.85
+    },
+    {
+        "date": "2023-01-06",
+        "company": "Chegg",
+        "review": "Not satisfied with the service provided.",
+        "sentiment_score": -0.4
+    },
+    {
+        "date": "2023-01-07",
+        "company": "Cisco",
+        "review": "Excellent products and support.",
+        "sentiment_score": 0.95
+    },
+    {
+        "date": "2023-01-08",
+        "company": "Cognizant",
+        "review": "Decent service but overpriced.",
+        "sentiment_score": 0.2
+    },
+    {
+        "date": "2023-01-09",
+        "company": "Cybage Software",
+        "review": "Good experience overall.",
+        "sentiment_score": 0.7
+    },
+    {
+        "date": "2023-01-10",
+        "company": "EPAM Systems",
+        "review": "Very responsive and helpful.",
+        "sentiment_score": 0.88
+    }
+]

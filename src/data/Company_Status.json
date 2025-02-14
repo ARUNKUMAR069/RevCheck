@@ -1,0 +1,143 @@
+[
+    {
+        "company": "A-1 Technology Inc.",
+        "average_rating": 4.5,
+        "average_sentiment_score": 0.4900125,
+        "review_count": 8,
+        "rating_sentiment_discrepancy": 4.0099875
+    },
+    {
+        "company": "Bacancy",
+        "average_rating": 4.0,
+        "average_sentiment_score": 0.799275,
+        "review_count": 8,
+        "rating_sentiment_discrepancy": 3.200725
+    },
+    {
+        "company": "Blue Yonder",
+        "average_rating": 4.25,
+        "average_sentiment_score": 0.5091,
+        "review_count": 8,
+        "rating_sentiment_discrepancy": 3.7409
+    },
+    {
+        "company": "Cadence Design Systems",
+        "average_rating": 4.125,
+        "average_sentiment_score": 0.501,
+        "review_count": 8,
+        "rating_sentiment_discrepancy": 3.624
+    },
+    {
+        "company": "Capgemini",
+        "average_rating": 4.1458333333,
+        "average_sentiment_score": 0.52064375,
+        "review_count": 48,
+        "rating_sentiment_discrepancy": 3.6251895833
+    },
+    {
+        "company": "Chegg",
+        "average_rating": 3.75,
+        "average_sentiment_score": 0.375,
+        "review_count": 8,
+        "rating_sentiment_discrepancy": 3.375
+    },
+    {
+        "company": "Cisco",
+        "average_rating": 4.8,
+        "average_sentiment_score": 0.66789,
+        "review_count": 10,
+        "rating_sentiment_discrepancy": 4.13211
+    },
+    {
+        "company": "Cognizant",
+        "average_rating": 3.9615384615,
+        "average_sentiment_score": 0.4310326923,
+        "review_count": 52,
+        "rating_sentiment_discrepancy": 3.5305057692
+    },
+    {
+        "company": "Cybage Software",
+        "average_rating": 4.0,
+        "average_sentiment_score": 0.56275,
+        "review_count": 8,
+        "rating_sentiment_discrepancy": 3.43725
+    },
+    {
+        "company": "EPAM Systems",
+        "average_rating": 4.0833333333,
+        "average_sentiment_score": 0.6431458333,
+        "review_count": 24,
+        "rating_sentiment_discrepancy": 3.4401875
+    },
+    {
+        "company": "Experion Technologies",
+        "average_rating": 4.25,
+        "average_sentiment_score": 0.5736,
+        "review_count": 8,
+        "rating_sentiment_discrepancy": 3.6764
+    },
+    {
+        "company": "FCS Software Solutions",
+        "average_rating": 3.75,
+        "average_sentiment_score": 0.2139625,
+        "review_count": 8,
+        "rating_sentiment_discrepancy": 3.5360375
+    },
+    {
+        "company": "Google",
+        "average_rating": 4.8125,
+        "average_sentiment_score": 0.864875,
+        "review_count": 16,
+        "rating_sentiment_discrepancy": 3.947625
+    },
+    {
+        "company": "HCL",
+        "average_rating": 3.7735849057,
+        "average_sentiment_score": 0.312454717,
+        "review_count": 53,
+        "rating_sentiment_discrepancy": 3.4611301887
+    },
+    {
+        "company": "Honeywell",
+        "average_rating": 4.75,
+        "average_sentiment_score": 0.622025,
+        "review_count": 8,
+        "rating_sentiment_discrepancy": 4.127975
+    },
+    {
+        "company": "IBM",
+        "average_rating": 4.5454545455,
+        "average_sentiment_score": 0.5642854545,
+        "review_count": 55,
+        "rating_sentiment_discrepancy": 3.9811690909
+    },
+    {
+        "company": "IndiaNIC",
+        "average_rating": 3.0,
+        "average_sentiment_score": 0.463625,
+        "review_count": 8,
+        "rating_sentiment_discrepancy": 2.536375
+    },
+    {
+        "company": "Infor",
+        "average_rating": 3.625,
+        "average_sentiment_score": 0.522025,
+        "review_count": 8,
+        "rating_sentiment_discrepancy": 3.102975
+    },
+    {
+        "company": "Infosys",
+        "average_rating": 4.4,
+        "average_sentiment_score": 0.5246109091,
+        "review_count": 55,
+        "rating_sentiment_discrepancy": 3.8753890909
+    },
+    {
+        "company": "Iris Software",
+        "average_rating": 3.375,
+        "rating_sentiment_discrepancy": 2.6586875
+    },
+    {
+        "rating_sentiment_discrepancy": 3.7423125
+    }
+]
