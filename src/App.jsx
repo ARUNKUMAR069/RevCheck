@@ -1,30 +1,30 @@
-import { useEffect, useState } from 'react';
-import Dashboard from './components/Dashboard';
-import './App.css';
+import React, { Suspense, lazy } from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import './index.css'
+import NotFound from './pages/NotFound'
 
-function App() {
-  const [companyData, setCompanyData] = useState([]);
-  const [processedData, setProcessedData] = useState([]);
+// Lazy load the ReportPage component
+// const ReportPage = lazy(() => import('./pages/ReportPage'))
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const companyResponse = await fetch('./data/Company_Status.json');
-      const processedResponse = await fetch('./data/Processed_Data.json');
-      const companyJson = await companyResponse.json();
-      const processedJson = await processedResponse.json();
-      setCompanyData(companyJson);
-      setProcessedData(processedJson);
-    };
 
-    fetchData();
-  }, []);
 
+const App = () => {
   return (
-    <div className="App">
-      <h1>Dashboard Analytics</h1>
-      <Dashboard companyData={companyData} processedData={processedData} />
-    </div>
-  );
+    <Router>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Routes>
+          <Route path="/" element={<div>Null 1</div>} />
+          <Route path="/1" element={<div>Null 1</div>} />
+          <Route path="/2" element={<div>Null 1</div>} />
+          <Route path="/3" element={<div>Null 1</div>} />
+          <Route path="/4" element={<div>Null 1</div>} />
+          <Route path="/5" element={<div>Null 1</div>} />
+          {/* Add more routes here as needed */}
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </Suspense>
+    </Router>
+  )
 }
 
-export default App;
+export default App
