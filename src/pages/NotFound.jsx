@@ -5,7 +5,7 @@ import '../index.css'
 
 const NotFound = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center h-screen bg-gray-900 text-white overflow-hidden">
+    <div className="relative flex flex-col items-center justify-center h-screen overflow-hidden" style={{ backgroundColor: 'var(--background-color)', color: 'var(--text-color)' }}>
       <AnimatedBackground />
       <motion.div 
         className="z-10"
@@ -32,8 +32,9 @@ const NotFound = () => {
         </motion.p>
         <motion.a 
           href="/"
-          className="mt-8 text-lg text-blue-500 hover:text-blue-400"
-          whileHover={{ scale: 1.1 }}
+          className="mt-8 text-lg"
+          style={{ color: 'var(--link-color)' }}
+          whileHover={{ scale: 1.1, color: 'var(--link-hover-color)' }}
           whileTap={{ scale: 0.9 }}
         >
           Go back to Home

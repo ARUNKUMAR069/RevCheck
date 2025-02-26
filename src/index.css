@@ -4,3 +4,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --background-color: #f0f0f0;
+    --text-color: #333;
+    --link-color: #1e90ff;
+    --link-hover-color: #1c86ee;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #1a202c;
+      --text-color: #f0f0f0;
+      --link-color: #63b3ed;
+      --link-hover-color: #4299e1;
+    }
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
