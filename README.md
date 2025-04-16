@@ -45,6 +45,7 @@ This project is a dashboard analytics application that integrates data from `Com
 - Integrates processed data for enhanced reporting.
 - Responsive design for various screen sizes.
 
+
 ## Technologies Used
 
 - React
